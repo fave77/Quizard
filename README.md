@@ -43,7 +43,11 @@ The color palette are inspired from the logo itself and the entire application m
 
 For contribution details check [CONTRIBUTING.md][6] :tada:
 
-> This project is part of [JAMstack Hackathon 2018][7] & guidelines for participation are listed [here][8]
+> This project is part of [JAMstack Hackathon 2018][7] & guidelines for participation are listed [here][8].
+
+## License
+
+The MIT License 2018 - [Priyabrata Biswas][9].
 
 [1]: https://reactjs.org/
 [2]: https://jamstack.org/
@@ -53,3 +57,4 @@ For contribution details check [CONTRIBUTING.md][6] :tada:
 [6]: https://github.com/pbiswas101/Quizard/blob/master/CONTRIBUTING.md
 [7]: https://hackathon.freecodecamp.org/
 [8]: https://github.com/freeCodeCamp/2018-online-jamstack-hackathon
+[9]: https://github.com/pbiswas101
