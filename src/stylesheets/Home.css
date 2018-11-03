@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
+
 .header {
   margin: 0;
-  padding: 1em;
+	padding: 1em;
   color: #555273;
-  box-shadow: 0 0 0.5em black;
+  box-shadow: 0 0.1em 0.5em black;
   text-align: center;
   font-family: "Lobster";
-  background: linear-gradient(to right, #a4b0c3, #ffffff);
+  background: white;
 }
+
 h1 {
   font-size: 2.2em;
 }
+
 .title {
   margin: 0;
 }

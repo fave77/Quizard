@@ -1,47 +1,37 @@
-form {
-  width: 80vw;
-  margin-top: 30px;
-  padding: 20px 40px;
-  display: flex;
-  flex-direction: column;
-  border: 3px solid #ccb;
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 20px 0;
+  width: 60%;
   box-shadow: 0px 2px 8px -1px #bbc;
-  border-radius: 20px;
-  background: #eee;
-  color: #433;
+  background: black;
+  color: white;
   align-items: center;
-  margin-bottom: 80px;
+	margin-bottom: 80px;
+	opacity: 0.9;
 }
-fieldset {
+
+.form h4 {
+	font-style: italic;
+}
+
+.form-field {
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
+	margin-top: 5px;
+  padding: 20px;
   font-size: 19px;
   line-height: 1.5em;
-  border-radius: 10px;
-  margin-top: 5px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px -2px #112;
-  border: none;
   flex-wrap: wrap;
 }
-.field {
-  margin-bottom: 10px;
-}
-input {
-  padding: 5px 10px;
-  border: none;
-  border-bottom: 2px solid grey;
-  border-radius: 5px;
-  margin-left: 5px;
-  font-size: 18px;
-  min-width: 200px;
-}
+
 input:valid {
-  border-bottom: 3px solid green;
-  background-color: #efe;
+	color: #a3e0a3;
 }
+
 .btn {
-  padding: 8px 30px;
+  padding: 0 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 12px -1px #191;
   border: none;
@@ -49,22 +39,26 @@ input:valid {
   margin-top: 10px;
   border: 1px solid #dfd;
 }
+
 .btn-big-green {
   color: #dfd;
   background: linear-gradient(45deg, #171, #5a5);
-  font-size: 1.2em;
+  font-size: 1em;
 }
+
+.btn-big-green:hover {
+  animation: fade 0.5s ease forwards;
+}
+
 @keyframes fade {
   to {
     background: #fff;
     color: #191;
   }
 }
-.btn-big-green:hover {
-  animation: fade 0.5s ease forwards;
-}
-@import url("https://fonts.googleapis.com/css?family=Pacifico");
-h2 {
-  font-family: "Pacifico";
-  font-size: 2em;
+
+@media only screen and (max-width: 600px) {
+	form {
+		width: 100%;
+	}
 }

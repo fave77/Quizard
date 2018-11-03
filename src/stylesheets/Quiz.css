@@ -1,0 +1,40 @@
+.section-topic {
+	padding: 5% 0 !important;
+}
+
+.choice {
+	font-style: italic;
+}
+
+.topics {
+	height: 10em;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.topics:hover,
+.topics:focus {
+	cursor: pointer;
+	box-shadow: 0 0.05em 0.5em black;
+	filter: blur(1px);
+}
+
+.html {
+	background: url(../images/html.png) no-repeat center;
+}
+
+.css {
+	background: url(../images/css.png) no-repeat center;
+}
+
+.js {
+	background: url(../images/js.png) no-repeat center;
+}
+
+.html,
+.css,
+.js {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
