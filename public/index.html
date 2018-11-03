@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html	lang="en">
   <head>
+		<!-- Meta Data -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="theme-color" content="#555273">
@@ -8,21 +9,22 @@
 		<meta name="description" content="A React based application implemented using the JAMstack principles where one passing the quiz shall win the title of Quizard!">
 		<meta name="keywords" content="Quiz, Games, Knowledge, Wizard">
 		<meta name="author" content="Priyabrata Biswas">
+		<!-- favicon & manifest -->
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+		<!-- Import materialize.css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <title>Quizard</title>
   </head>
   <body>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+		<!-- Import jQuery before materialize.js -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.tooltipped').tooltip();
+			});
+		</script>
+	</body>
 </html>

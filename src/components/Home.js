@@ -1,15 +1,21 @@
 import React from "react";
-import "../stylesheets/Home.css";
 import Header from "./Header";
 import Form from "./Form";
-import Questions from "./Questions";
+import Question from "./Question";
+import "../stylesheets/Home.css";
+
 class Home extends React.Component {
 	render() {
+		const { handleName, handleEmail, token } = this.props;
 		return (
 			<div>
 				<Header />
 				<section className="content">
-					<Form />
+					<Form
+						handleName={handleName}
+						handleEmail={handleEmail}
+						token={token}
+					/>
 				</section>
 				<Questions />
 			</div>
