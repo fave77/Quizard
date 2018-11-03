@@ -3,9 +3,6 @@ import Option from "./Option";
 import "../stylesheets/Question.css";
 
 class Question extends React.Component {
-	constructor(props) {
-		super(props);
-	}
 	selected = value => {
 		this.props.toSubmit(this.props.id, value);
 	};
@@ -16,7 +13,7 @@ class Question extends React.Component {
 			);
 		});
 		return (
-			<form action={null} className="question">
+			<form action={null} className="question animated slideInDown">
 				<h3>{this.props.question}</h3>
 				{options}
 			</form>

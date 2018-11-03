@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
 import Form from "./Form";
-import Question from "./Question";
 import "../stylesheets/Home.css";
 
 class Home extends React.Component {
@@ -17,7 +16,6 @@ class Home extends React.Component {
 						token={token}
 					/>
 				</section>
-				<Questions />
 			</div>
 		);
 	}

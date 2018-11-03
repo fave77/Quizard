@@ -1,9 +1,6 @@
 import React from "react";
 import "../stylesheets/Option.css";
 class Option extends React.Component {
-	constructor(props) {
-		super(props);
-	}
 	selected = () => {
 		this.props.selected(this.props.value);
 	};
