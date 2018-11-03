@@ -1,0 +1,21 @@
+.header {
+	margin: 0;
+	padding: 1em;
+	color: #555273;
+	box-shadow: 0 0 0.5em black;
+	text-align: center;
+}
+
+.title {
+	margin: 0;
+}
+
+.tagline {
+	font-style: italic;
+}
+
+.content {
+	margin: 0;
+	padding: 5%;
+	text-align: center;
+}
