@@ -5,26 +5,21 @@ import "../stylesheets/Question.css";
 class Question extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			question: this.props.question,
-			options: this.props.options
-		};
 	}
-	componentWillMount() {
-		this.setState({
-			question: this.props.question,
-			options: this.state.options
-		});
-	}
+	selected = value => {
+		this.props.toSubmit(this.props.id, value);
+	};
 	render() {
-		const options = this.state.options.map((option, idx) => {
-			return <Option value={option} id={idx} />;
+		const options = this.props.options.map((option, idx) => {
+			return (
+				<Option value={option} id={idx} key={idx} selected={this.selected} />
+			);
 		});
 		return (
-			<div className="question">
-				<h3>{this.state.question}</h3>
+			<form action={null} className="question">
+				<h3>{this.props.question}</h3>
 				{options}
-			</div>
+			</form>
 		);
 	}
 }

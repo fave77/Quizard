@@ -4,10 +4,18 @@ class Option extends React.Component {
 	constructor(props) {
 		super(props);
 	}
+	selected = () => {
+		this.props.selected(this.props.value);
+	};
 	render() {
 		return (
 			<div className="option">
-				<input type="radio" name="poll" value={this.props.value} />
+				<input
+					type="radio"
+					name="poll"
+					value={this.props.value}
+					onClick={this.selected}
+				/>
 				<div className="option-val">{this.props.value}</div>
 			</div>
 		);

@@ -7,11 +7,11 @@ class Form extends React.Component {
 	}
 	render() {
 		return (
-			<form action="#">
+			<form action="#" method="post" className="userform">
 				<h2>Fill in the form to enter the quiz</h2>
 				<fieldset>
 					<div className="field">
-						<label for="name" id="name-label">
+						<label htmlFor="name" id="name-label">
 							Name:
 						</label>
 						<input
@@ -23,7 +23,7 @@ class Form extends React.Component {
 						/>
 					</div>
 					<div className="field">
-						<label for="email" id="email-label">
+						<label htmlFor="email" id="email-label">
 							Email:
 						</label>
 						<input
@@ -35,7 +35,7 @@ class Form extends React.Component {
 						/>
 					</div>
 				</fieldset>
-				<button type="submit" class="btn btn-big-green" id="submit">
+				<button type="submit" className="btn btn-big-green" id="submit">
 					Submit
 				</button>
 			</form>
