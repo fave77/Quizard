@@ -16,6 +16,47 @@
   margin: 20px;
   border-radius: 20px;
 }
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  color: indigo;
+}
+.preloader {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+@keyframes load {
+  40% {
+    transform: rotatez(-180deg);
+    border-width: 16px;
+  }
+  80% {
+    transform: rotatez(-360deg);
+  }
+  100% {
+    transform: rotatez(-360deg);
+  }
+}
+.preloader::before {
+  content: "";
+  color: white;
+  height: 90px;
+  width: 90px;
+  background: transparent;
+  border-radius: 50%;
+  border: 10px dotted indigo;
+  border-left-color: transparent;
+  animation: load 1s infinite ease-in-out;
+}
 .questions {
   display: flex;
   flex-direction: row;

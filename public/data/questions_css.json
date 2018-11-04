@@ -1,0 +1,588 @@
+{
+  "questions": [
+    {
+      "id": 200,
+      "topic": "css",
+      "question": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style Sheets",
+        "Cascading Style Sheets"
+      ],
+      "ans": "1100100000"
+    },
+    {
+      "id": 201,
+      "topic": "css",
+      "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "options": [
+        "At the end of the document",
+        "In the <head> section",
+        "In the <body> section",
+        "At the beginning of the document"
+      ],
+      "ans": "110010010"
+    },
+    {
+      "id": 202,
+      "topic": "css",
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "options": ["<script>", "<style>", "<css>", "<head>"],
+      "ans": "110010100"
+    },
+    {
+      "id": 203,
+      "topic": "css",
+      "question": "Which HTML attribute is used to define inline styles?",
+      "options": ["styles", "style", "class", "font"],
+      "ans": "110010110"
+    },
+    {
+      "id": 204,
+      "topic": "css",
+      "question": "Which is the correct CSS syntax?",
+      "options": [
+        "body:color=black;",
+        "{body;color:black;}",
+        "{body:color=black;}",
+        "body {color: black;}"
+      ],
+      "ans": "1100110000"
+    },
+    {
+      "id": 205,
+      "topic": "css",
+      "question": "How do you insert a comment in a CSS file?",
+      "options": [
+        "// this is a comment //",
+        "' this is a comment",
+        "// this is a comment",
+        "/* this is a comment */"
+      ],
+      "ans": "1100110100"
+    },
+    {
+      "id": 206,
+      "topic": "css",
+      "question": "Which property is used to change the background color?",
+      "options": ["background-color", "color", "color-bg", "bgcolor"],
+      "ans": "11001110"
+    },
+    {
+      "id": 207,
+      "topic": "css",
+      "question": "How do you add a background color for all <h1> elements?",
+      "options": [
+        "h1 {background-color:#FFFFFF;}",
+        "all.h1 {background-color:#FFFFFF;}",
+        "h1.all {background-color:#FFFFFF;}",
+        "{h1 background-color:#FFFFFF;}"
+      ],
+      "ans": "11001111"
+    },
+    {
+      "id": 208,
+      "topic": "css",
+      "question": "Which CSS property is used to change the text color of an element?",
+      "options": ["text-color", "color", "fgcolor", "textcol"],
+      "ans": "110100000"
+    },
+    {
+      "id": 209,
+      "topic": "css",
+      "question": "Which CSS property controls the text size?",
+      "options": ["font-style", "text-size", "text-style", "font-size"],
+      "ans": "1101000100"
+    },
+    {
+      "id": 210,
+      "topic": "css",
+      "question": "How do you make each word in <p> bold?",
+      "options": [
+        "<p style='text-size:bold;'>",
+        "p {font-weight:bold;}",
+        "<p style='font-size:bold;'>",
+        "p {text-size:bold;}"
+      ],
+      "ans": "110100100"
+    },
+    {
+      "id": 211,
+      "topic": "css",
+      "question": "How do you display hyperlinks without an underline?",
+      "options": [
+        "a {underline:none;}",
+        "a {decoration:no-underline;}",
+        "a {text-decoration:none;}",
+        "a {text-decoration:no-underline;}"
+      ],
+      "ans": "1001111001"
+    },
+    {
+      "id": 212,
+      "topic": "css",
+      "question": "How do you make each word in a text start with a capital letter?",
+      "options": [
+        "text-style:captialize",
+        "text-transform:capitalize",
+        "transform:capitalize",
+        "You can't do that with CSS"
+      ],
+      "ans": "110101000"
+    },
+    {
+      "id": 213,
+      "topic": "css",
+      "question": "Which property is used to change the font of an element?",
+      "options": ["font-weight", "font-family", "font-style", "fonts"],
+      "ans": "110101010"
+    },
+    {
+      "id": 214,
+      "topic": "css",
+      "question": "How do you make the text bold?",
+      "options": [
+        "font-weight:bold;",
+        "style:bold;",
+        "font:bold;",
+        "font-style:bold;"
+      ],
+      "ans": "11010110"
+    },
+    {
+      "id": 215,
+      "topic": "css",
+      "question": "How do you display a border like this: top border = 10 pixels, bottom border = 5 pixels, left border = 20 pixels, right border = 1pixel?",
+      "options": [
+        "border-width:10px 1px 5px 20px;",
+        "border-width:10px 20px 5px 1px;",
+        "border-width:5px 20px 10px 1px;",
+        "border-width:10px 5px 20px 1px;"
+      ],
+      "ans": "11010111"
+    },
+    {
+      "id": 216,
+      "topic": "css",
+      "question": "Which property is used to change the left margin of an element?",
+      "options": ["indent", "margin-left", "padding-left", "style"],
+      "ans": "110110000"
+    },
+    {
+      "id": 217,
+      "topic": "css",
+      "question": "How do you make a list that lists its items with squares?",
+      "options": [
+        "list-style-type: square;",
+        "list-type: square;",
+        "list: square;",
+        "list-style: square;"
+      ],
+      "ans": "11011001"
+    },
+    {
+      "id": 218,
+      "topic": "css",
+      "question": "How do you select an element with id 'demo'?",
+      "options": ["*demo", "demo", "#demo", ".demo"],
+      "ans": "1010001110"
+    },
+    {
+      "id": 219,
+      "topic": "css",
+      "question": "How do you select elements with class name 'test'?",
+      "options": ["test", "*test", "#test", ".test"],
+      "ans": "1101101100"
+    },
+    {
+      "id": 220,
+      "topic": "css",
+      "question": "How do you select all p elements inside a div element?",
+      "options": ["div.p", "div p", "div + p", "div#p"],
+      "ans": "110111000"
+    },
+    {
+      "id": 221,
+      "topic": "css",
+      "question": "How do you group selectors?",
+      "options": [
+        "Separate each selector with a space",
+        "Separate each selector with a plus sign",
+        "Separate each selector with a comma",
+        "Separate each selector with a dot"
+      ],
+      "ans": "1010010111"
+    },
+    {
+      "id": 222,
+      "topic": "css",
+      "question": "What is the default value of the position property?",
+      "options": ["absolute", "relative", "static", "fixed"],
+      "ans": "1010011010"
+    },
+    {
+      "id": 223,
+      "topic": "css",
+      "question": "Which CSS property is used to set the color of borders?",
+      "options": ["bcolor", "color", "border-style", "border-color"],
+      "ans": "1101111100"
+    },
+    {
+      "id": 224,
+      "topic": "css",
+      "question": "How do you make a dotted border around all paragraphs <p>?",
+      "options": [
+        "p {border: dotted;}",
+        "p.dotted {border-style;}",
+        "p.dotted {border-style: dotted;}",
+        "p {border-style: dotted;}"
+      ],
+      "ans": "1110000000"
+    },
+    {
+      "id": 225,
+      "topic": "css",
+      "question": "Which is the correct hexadecimal value in the form #rrggbb for the color blue?",
+      "options": ["#ffffff", "#00ff00", "#ff0000", "#0000ff"],
+      "ans": "1110000100"
+    },
+    {
+      "id": 226,
+      "topic": "css",
+      "question": "Which is the correct hexadecimal value in the form #rrggbb for the color green?",
+      "options": ["#ffffff", "#00ff00", "#ff0000", "#0000ff"],
+      "ans": "111000100"
+    },
+    {
+      "id": 227,
+      "topic": "css",
+      "question": "Which is the correct hexadecimal value in the form #rrggbb for the color white?",
+      "options": ["#ffffff", "#00ff00", "#ff0000", "#0000ff"],
+      "ans": "11100011"
+    },
+    {
+      "id": 228,
+      "topic": "css",
+      "question": "Which is the correct hexadecimal value in the form #rrggbb for the color black?",
+      "options": ["#ffffff", "#00ff00", "#000000", "#0000ff"],
+      "ans": "1010101100"
+    },
+    {
+      "id": 229,
+      "topic": "css",
+      "question": "In the CSS box model, which part contains text and image?",
+      "options": ["Margin", "Border", "Padding", "Content"],
+      "ans": "1110010100"
+    },
+    {
+      "id": 230,
+      "topic": "css",
+      "question": "In the CSS box model, which part clears a transparent area around the content?",
+      "options": ["Margin", "Border", "Padding", "Content"],
+      "ans": "1010110010"
+    },
+    {
+      "id": 231,
+      "topic": "css",
+      "question": "In the CSS box model, which part describes a border that goes around the padding and content?",
+      "options": ["Margin", "Border", "Padding", "Content"],
+      "ans": "111001110"
+    },
+    {
+      "id": 232,
+      "topic": "css",
+      "question": "In the CSS box model, which part clears a transparent area outside the border?",
+      "options": ["Margin", "Border", "Padding", "Content"],
+      "ans": "11101000"
+    },
+    {
+      "id": 233,
+      "topic": "css",
+      "question": "How do you style a normal, unvisited link?",
+      "options": ["a:link", "a:visited", "a:hover", "a:active"],
+      "ans": "11101001"
+    },
+    {
+      "id": 234,
+      "topic": "css",
+      "question": "How do you style a link the user has visited?",
+      "options": ["a:link", "a:visited", "a:hover", "a:active"],
+      "ans": "111010100"
+    },
+    {
+      "id": 235,
+      "topic": "css",
+      "question": "How do you style a link when the user mouses over it?",
+      "options": ["a:link", "a:visited", "a:hover", "a:active"],
+      "ans": "1011000001"
+    },
+    {
+      "id": 236,
+      "topic": "css",
+      "question": "How do you style a link the moment it is clicked?",
+      "options": ["a:link", "a:visited", "a:hover", "a:active"],
+      "ans": "1110110000"
+    },
+    {
+      "id": 237,
+      "topic": "css",
+      "question": "Which is NOT a valid position property?",
+      "options": ["relative", "bottom", "absolute", "sticky"],
+      "ans": "111011010"
+    },
+    {
+      "id": 238,
+      "topic": "css",
+      "question": "Which is NOT a valid position property?",
+      "options": ["top", "static", "absolute", "sticky"],
+      "ans": "11101110"
+    },
+    {
+      "id": 239,
+      "topic": "css",
+      "question": "Which is NOT a valid position property?",
+      "options": ["relative", "static", "left", "sticky"],
+      "ans": "1011001101"
+    },
+    {
+      "id": 240,
+      "topic": "css",
+      "question": "Which is NOT a valid position property?",
+      "options": ["relative", "static", "absolute", "right"],
+      "ans": "1111000000"
+    },
+    {
+      "id": 241,
+      "topic": "css",
+      "question": "How can you position an element in front of or behind other elements?",
+      "options": ["x-index", "y-index", "position", "z-index"],
+      "ans": "1111000100"
+    },
+    {
+      "id": 242,
+      "topic": "css",
+      "question": "Which overflow property specifies the content to render outside the element's box if it is too big to fit?",
+      "options": ["visible", "hidden", "scroll", "auto"],
+      "ans": "11110010"
+    },
+    {
+      "id": 243,
+      "topic": "css",
+      "question": "Which overflow property specifies the rest of the content to be invisible if it is too big to fit?",
+      "options": ["visible", "hidden", "scroll", "auto"],
+      "ans": "111100110"
+    },
+    {
+      "id": 244,
+      "topic": "css",
+      "question": "How do you change the color of all <p> and <h1> elements, to 'red'. Group the selectors to minimize code.",
+      "options": [
+        "h1, p {red;}",
+        "h1 {color: red;} p {color: red;}",
+        "h1, p {color: red;}",
+        "h1 {red;} p {red;}"
+      ],
+      "ans": "1011011100"
+    },
+    {
+      "id": 245,
+      "topic": "css",
+      "question": "How do you change the color of all <p> elements with class 'test' to 'red'.",
+      "options": [
+        "p, .test {color: red;}",
+        ".test {color: red;} p {color: red;}",
+        "p .test {color: red;}",
+        ".test {red;} p {red;}"
+      ],
+      "ans": "1011011111"
+    },
+    {
+      "id": 246,
+      "topic": "css",
+      "question": "How do you set the background color for the page to 'linen'?",
+      "options": [
+        "body {color: linen;}",
+        "body {bg-color: linen;}",
+        "background {background-color: linen;}",
+        "body {background-color: linen;}"
+      ],
+      "ans": "1111011000"
+    },
+    {
+      "id": 247,
+      "topic": "css",
+      "question": "How do you Set 'paper.gif' as the background image of the page?",
+      "options": [
+        "background {background-image: url('paper.gif');}",
+        "body {background-image: url('paper.gif');}",
+        "body {background-image: href('paper.gif');}",
+        "body {background-image: src('paper.gif');"
+      ],
+      "ans": "111101110"
+    },
+    {
+      "id": 248,
+      "topic": "css",
+      "question": "How do you set the background image to 'img_tree.png', show it once, in the top right corner?",
+      "options": [
+        "body {background-image: url('img_tree.png') no-repeat top right;}",
+        "{body: url('img_tree.png') no-repeat top right;}",
+        "body {background: url('img_tree.png') no-repeat top right;}",
+        "background {url('img_tree.png') no-repeat top right;}"
+      ],
+      "ans": "11111000"
+    },
+    {
+      "id": 249,
+      "topic": "css",
+      "question": "How do you Set a '4px', 'dotted' border for <p>",
+      "options": [
+        "p {border-style: dotted; border-width: 4px;}",
+        "p {border-style: dotted; border-width: 4 pix;}",
+        "p {border: dotted; 4px;}",
+        "border {p: dotted; p-width: 4px;}"
+      ],
+      "ans": "11111001"
+    },
+    {
+      "id": 250,
+      "topic": "css",
+      "question": "How do you set the left margin of <h1> to '20px' and the text color to 'lightblue'?",
+      "options": [
+        "h1 {color: lightblue; left-margin: 20px;}",
+        "h1 {color: lightblue; margin-left: 20px;}",
+        "h1 {lightblue; 20px;}",
+        "h1 {text-color: lightblue; left-margin: 20px;}"
+      ],
+      "ans": "111110100"
+    },
+    {
+      "id": 251,
+      "topic": "css",
+      "question": "How do you set the top and bottom margins for <h1> to '50px', and left and right margins to '25px'?",
+      "options": [
+        "margin {h1: 50px 25px;}",
+        "h1 {50px 25px;}",
+        "h1 {margin: 25px 50px;}",
+        "h1 {margin: 50px 25px;}"
+      ],
+      "ans": "1111101100"
+    },
+    {
+      "id": 252,
+      "topic": "css",
+      "question": "How do you set the top and bottom margins for <p> to '25px', and left and right margins to '50px'?",
+      "options": [
+        "p {padding: 25px 50px;}",
+        "p {padding: 50px 25px;}",
+        "padding {25px 50px;}",
+        "padding {50px 25px;}"
+      ],
+      "ans": "11111100"
+    },
+    {
+      "id": 253,
+      "topic": "css",
+      "question": "How do you set the outline for p to 'red', 'dotted' and '10px'?",
+      "options": [
+        "outline {p: red dotted 10px;}",
+        "p {red dotted 10px;}",
+        "p {outline: red dotted 10px;}",
+        "outline {red dotted 10px;}"
+      ],
+      "ans": "1011110111"
+    },
+    {
+      "id": 254,
+      "topic": "css",
+      "question": "How do you set the text color for the page to 'red'?",
+      "options": [
+        "body {color: red;}",
+        "body {red;}",
+        "color {body: red;}",
+        "color {red;}"
+      ],
+      "ans": "11111110"
+    },
+    {
+      "id": 255,
+      "topic": "css",
+      "question": "How do you center align the <h1> element?",
+      "options": [
+        "text-align {center;}",
+        "text-align {h1: center;}",
+        "h1 {center;}",
+        "h1 {text-align: center;}"
+      ],
+      "ans": "1111111100"
+    },
+    {
+      "id": 256,
+      "topic": "css",
+      "question": "How do you style text in <h1> to uppercase letters?",
+      "options": [
+        "h1 {uppercase;}",
+        "text-transform {uppercase;}",
+        "h1 {text-transform: uppercase;}",
+        "text-transform {h1: uppercase;}"
+      ],
+      "ans": "1100000000"
+    },
+    {
+      "id": 257,
+      "topic": "css",
+      "question": "How do you style text in <p> to capitalized letters?",
+      "options": [
+        "p {capitalize;}",
+        "text-transform {capitalize;}",
+        "p {text-transform: capitalize;}",
+        "text-transform {p: capitalize;}"
+      ],
+      "ans": "1100000011"
+    },
+    {
+      "id": 258,
+      "topic": "css",
+      "question": "How do you indent the first line of all <p> elements with 20px?",
+      "options": [
+        "p {text-indent: 20px;}",
+        "text-indent {20px;}",
+        "p {20px;}",
+        "text-indent {p: 20px;}"
+      ],
+      "ans": "100000010"
+    },
+    {
+      "id": 259,
+      "topic": "css",
+      "question": "How do you set the font family for <h1> to 'Verdana'?",
+      "options": [
+        "font-family {Verdana;}",
+        "h1 {font-family: Verdana;}",
+        "h1 {Verdana;}",
+        "font-family {h1: Verdana;}"
+      ],
+      "ans": "1000000110"
+    },
+    {
+      "id": 260,
+      "topic": "css",
+      "question": "What is the correct HTML for referring to an external style sheet?",
+      "options": [
+        "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+        "<stylesheet>mystyle.css</stylesheet>",
+        "<link rel='stylesheet' type='text/css' src='mystyle.css'>",
+        "<style src='mystyle.css'>"
+      ],
+      "ans": "100000100"
+    },
+    {
+      "id": 261,
+      "topic": "css",
+      "question": "Which is the correct hexadecimal value in the form #rrggbb for the color red?",
+      "options": ["#ffffff", "#00ff00", "#ff0000", "#0000ff"],
+      "ans": "1100001111"
+    }
+  ]
+}
