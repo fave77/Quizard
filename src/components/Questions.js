@@ -10,13 +10,15 @@ class Questions extends React.Component {
 		super(props);
 		this.state = { questions: [], index: 0, loading: true, count: 0 };
 	}
-	toSubmit = async (id, value) => {
+	toSubmit = async (id, value, isCorrect) => {
 		let qs = this.state.questions;
 		qs[this.state.index].selected = value;
-		await this.setState({
-			questions: qs,
-			count: this.state.count + 1
-		});
+		if(isCorrect) {
+			await this.setState({
+				questions: qs,
+				count: this.state.count + 1
+			});
+		}
 		await setTimeout(() => {
 			let index = this.state.index + 1;
 			this.setState({ index: index });
@@ -26,13 +28,11 @@ class Questions extends React.Component {
 		this.setState({ index: this.state.questions.length });
 	};
 	componentDidMount = async () => {
+		const path = process.env.PUBLIC_URL;
 		const urls = {
-			HTML:
-				"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions_html.json",
-			CSS:
-				"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions_css.json",
-			JS:
-				"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions_js.json"
+			HTML: `${path}/data/questions_html.json`,
+			CSS: `${path}/data/questions_css.json`,
+			JS: `${path}/data/questions_js.json`
 		};
 		const response = await fetch(urls[this.props.match.params.topic]);
 		if (response.ok) {
@@ -67,6 +67,7 @@ class Questions extends React.Component {
 							key={question.id}
 							question={question.question}
 							options={question.options}
+							ans={question.ans}
 							toSubmit={this.toSubmit}
 						/>
 					</div>
