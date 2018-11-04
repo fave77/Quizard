@@ -14,7 +14,7 @@ class Question extends React.Component {
 		});
 		return (
 			<form action={null} className="question animated slideInDown">
-				<h3>{this.props.question}</h3>
+				<h4>{this.props.question}</h4>
 				{options}
 			</form>
 		);

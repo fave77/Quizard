@@ -21,12 +21,19 @@ class Questions extends React.Component {
 		}, 500);
 	};
 	componentDidMount = async () => {
-		const response = await fetch(
-			"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions.json"
-		);
-		const qs = await response.json();
-		console.log(qs);
-		this.setState({ questions: qs.questions, loading: false });
+		const urls = {
+			HTML:
+				"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions_html.json",
+			CSS:
+				"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions_css.json",
+			JS:
+				"https://raw.githubusercontent.com/danielpoehle/Quizard/master/data/questions_js.json"
+		};
+		const response = await fetch(urls[this.props.match.params.topic]);
+		if (response.ok) {
+			const qs = await response.json();
+			this.setState({ questions: qs.questions, loading: false });
+		} else alert("No questions found");
 	};
 	render() {
 		const question = this.state.questions[this.state.index];

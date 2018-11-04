@@ -52,7 +52,7 @@ class App extends React.Component {
 				<Route exact path={"/topic/:token"} component={Quiz} />
 				<Route
 					exact
-					path={"/questions/" + this.state.token}
+					path={"/questions/:topic/" + this.state.token}
 					component={Questions}
 				/>
 			</div>
