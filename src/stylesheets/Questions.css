@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+.summary button {
+  margin: 50px 40%;
+}
+.btn-giant {
+  width: 250px;
+  font-size: 2em;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #cfc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+}
+@keyframes beat {
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.countdown {
+  padding: 0px 10px 5px 10px;
+  box-shadow: 0px 0px 9px -1px red;
+  border-radius: 5px;
+  border: 1px solid red;
+  background: #fcc;
+  color: maroon;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.4em;
+  animation: beat 2s infinite ease;
+  transform-origin: 50% 50%;
+}
+.countdown .timer {
+  font-family: "Audiowide";
+}
+@media only screen and (max-width: 450px) {
+  .questions {
+    flex-direction: column;
+  }
+  .countdown {
+    flex-direction: row;
+  }
+}

@@ -2,12 +2,12 @@
 
 .header {
   margin: 0;
-	padding: 1em;
+  padding: 1em;
   color: #555273;
   box-shadow: 0 0.1em 0.5em black;
   text-align: center;
   font-family: "Lobster";
-  background: white;
+  background: linear-gradient(to right, #fde, #fee, #fdd);
 }
 
 h1 {

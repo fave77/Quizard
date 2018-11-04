@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the correct HTML tag for the largest heading.",
+      "options": ["<heading>", "<h6>", "<head>", "<h1>"]
+    },
+    {
+      "id": 2,
+      "question": "Choose the correct HTML tag for the smallest heading.",
+      "options": ["<heading>", "<h6>", "<head>", "<h1>"]
+    },
+    {
+      "id": 3,
+      "question": "What is the correct HTML tag for inserting a line break?",
+      "options": ["<break>", "<br>", "<tr>", "<dl>"]
+    },
+    {
+      "id": 4,
+      "question": "What is the correct HTML tag for making your text bold?",
+      "options": ["<a>", "<b>", "<strong>", "<main>"]
+    },
+    {
+      "id": 5,
+      "question": "What is the correct HTML tag for creating a multiline input control?",
+      "options": ["<textarea>", "<input>", "<text>", "<template>"]
+    },
+    {
+      "id": 6,
+      "question": "What is the correct HTML tag for creating a HTML form for user input?",
+      "options": ["<textarea>", "<input>", "<text>", "<form>"]
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct HTML tag to define an option in a drop-down list.",
+      "options": ["<select>", "<option>", "<label>", "<output>"]
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct HTML tag to define a drop-down list.",
+      "options": ["<select>", "<option>", "<label>", "<output>"]
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct HTML tag to define a label for an input element.",
+      "options": ["<select>", "<option>", "<label>", "<output>"]
+    },
+    {
+      "id": 9,
+      "question": "What is the correct HTML tag for creating a hyperlink?",
+      "options": ["<a>", "<link>", "<ul>", "<ol>"]
+    },
+    {
+      "id": 10,
+      "question": "How can you create an email link?",
+      "options": [
+        "a href='mailto:xxx@yyy'",
+        "a href='xxx@yyy'",
+        "mail>xxx@yyy",
+        "mail href='xxx@yyy'"
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Which declaration has to be the very first thing in every HTML document?",
+      "options": ["<!DOCTYPE html>", "<html>", "<head>", "<body>"]
+    }
+  ]
+}
