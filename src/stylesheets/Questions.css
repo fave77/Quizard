@@ -8,14 +8,14 @@
 }
 
 .summary {
-	display: flex;
+  display: flex;
   flex-direction: column;
-	margin: auto;
-	margin-top: 2em;
+  margin: auto;
+  margin-top: 2em;
   padding: 20px;
-	width: 60%;
-	font-size: 1em;
-  background-color: black; 
+  width: 60%;
+  font-size: 1em;
+  background-color: black;
   color: white;
   align-items: center;
   opacity: 0.9;
@@ -76,6 +76,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 10px 20px;
+  margin-top: 10px;
 }
 @keyframes beat {
   50% {
@@ -100,6 +101,7 @@
   font-size: 1.4em;
   animation: beat 2s infinite ease;
   transform-origin: 50% 50%;
+  margin-bottom: 10px;
 }
 .countdown .timer {
   font-family: "Audiowide";
@@ -110,9 +112,9 @@
   }
   .countdown {
     flex-direction: row;
-	}
-	
-	.summary {
+  }
+
+  .summary {
     width: 90%;
   }
 }

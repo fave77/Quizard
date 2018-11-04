@@ -1,12 +1,18 @@
 .header {
   margin: 0;
   box-shadow: 0 0.1em 0.5em black;
-	background-color: white;
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo {
-	width: 8em;
-	height: 8em;
+  width: 8em;
+  height: 6em;
+  padding-left: 10px;
 }
 
 .content {
@@ -15,74 +21,75 @@
   text-align: center;
 }
 
-
 /*efef*/
 .nav-bar {
-	margin-top: 3em;
-	float: right;
+  margin-left: auto;
 }
 
 ul li {
-	display: inline;
-	padding: 1.5em;
+  display: inline;
+  padding: 1.5em;
 }
 
-.nav-bar a{
-	position: relative;
-	transition: all 2s;
-	font-size: 2em;
-	color: #555273;
+.nav-bar a {
+  position: relative;
+  transition: all 2s;
+  font-size: 2em;
+  color: #555273;
 }
 
-.nav-bar a:after{
-	position: absolute;
-	margin: auto;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 0;
-	height: 1px;
-	content: '.';
-	color: transparent;
+.nav-bar a:after {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+  content: ".";
+  color: transparent;
 }
 
-.nav-bar a:hover{
-	z-index: 1;
-	color: #a4b0c3;
+.nav-bar a:hover {
+  z-index: 1;
+  color: #a4b0c3;
 }
 
-.nav-bar a:hover:after{
-	z-index: -10;
-	animation: fill .5s forwards;
-	opacity: 1;
+.nav-bar a:hover:after {
+  z-index: -10;
+  animation: fill 0.5s forwards;
+  opacity: 1;
 }
 
 .nav-bar a,
 .nav-bar a:after,
-.nav-bar a:before{
-	transition: all .5s;
+.nav-bar a:before {
+  transition: all 0.5s;
 }
 
-@keyframes fill{
-	0%{
-			width: 0;
-			height: 1px;
-	}
-	100%{
-			width: 100%;
-			height: 2px;
-			background-color: #a4b0c3;
-	}
-
+@keyframes fill {
+  0% {
+    width: 0;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 2px;
+    background-color: #a4b0c3;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-	.header {
-		text-align: center;
-	}
+  .header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-	.nav-bar {
-		display: none;
-	}
-
+  .nav-bar {
+    margin-left: 0px;
+  }
+  .nav-bar a {
+    font-size: 1.1em;
+  }
 }

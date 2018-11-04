@@ -2,7 +2,7 @@ import React from "react";
 
 class Timer extends React.Component {
 	state = {
-		mins: 2,
+		mins: 4,
 		secs: 1
 	};
 
@@ -23,7 +23,7 @@ class Timer extends React.Component {
 		}
 	};
 	componentDidMount = async () => {
-		await this.setState({ mins: Math.round(this.props.total / 10) });
+		await this.setState({ mins: Math.round(this.props.total / 5) });
 		await this.updateTimer();
 	};
 	left = () => {

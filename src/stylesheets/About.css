@@ -1,21 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url("https://fonts.googleapis.com/css?family=Caveat");
 
 .background {
-	background: url('../images/about.jpg') no-repeat center fixed;
-	text-align: center;
+  background: url("../images/about.jpg") no-repeat center fixed;
+  text-align: center;
 }
 
 .about-logo {
-	width: 60%;
-	height: 60%;
+  width: 60%;
+  height: 60%;
 }
 
 .about-text {
-	font-family: 'Caveat', cursive;
-	font-size: 2em; 
-	text-align: justify;
+  font-family: "Caveat", cursive;
+  font-size: 2em;
+  text-align: justify;
 }
 
+.back-btn {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border-left: 5px solid indigo;
+  border-top: 5px solid indigo;
+  transform: rotateZ(-45deg);
+  left: 50px;
+  top: 40px;
+  cursor: pointer;
+}
 footer {
-	padding: 2em;
+  padding: 2em;
+}
+.container a {
+  color: indigo;
+}
+.container a:hover {
+  color: blueviolet;
+}
+
+@media only screen and (max-width: 600px) {
+  .back-btn {
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 15px;
+  }
 }

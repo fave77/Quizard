@@ -11,12 +11,15 @@
   width: 50%;
 }
 .question h4 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
   .question {
     width: 100%;
+  }
+  .question h4 {
+    font-size: 1.1em;
   }
 }
