@@ -2,7 +2,7 @@
 
 > Are you cursed with knowledge in general?... well then consider becoming a Quiz Wizard!
 
-![](https://github.com/pbiswas101/Quizard/blob/master/assets/logo.png)
+![](https://github.com/pbiswas101/Quizard/blob/master/public/assets/logo.png)
 
 A [React][1] based application implemented using the [JAMstack][2] principles where one passing the quiz shall win the title of **Quizard**!
 
