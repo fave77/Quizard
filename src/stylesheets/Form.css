@@ -8,19 +8,25 @@ input {
   margin: auto;
   padding: 20px 0;
   width: 60%;
-	background: url(../images/quiz.jpg) no-repeat center fixed;
-	background-size: cover;
+  background: url(../images/quiz.jpg) no-repeat center fixed;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(../images/quiz.jpg) no-repeat center fixed;
+  background-size: cover;
   color: white;
   align-items: center;
   opacity: 0.9;
-	border-radius: 0.5em;
-	transition-property: box-shadow;
-	transition-duration: 1s;
+  border-radius: 0.5em;
+  transition-property: box-shadow;
+  transition-duration: 1s;
 }
 
 .form:hover,
 .form:focus {
-	box-shadow: 0 0 1em black;
+  box-shadow: 0 0 1em black;
 }
 
 .form h4 {
@@ -43,7 +49,7 @@ input:valid {
 }
 
 .input::-webkit-autofill {
-	background: black;
+  background: black;
 }
 
 .btn {

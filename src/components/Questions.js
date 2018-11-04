@@ -1,5 +1,4 @@
 import React from "react";
-import { Preloader } from 'react-materialize';
 import Question from "./Question";
 import "../stylesheets/Questions.css";
 import Summary from "./Summary";
@@ -39,10 +38,9 @@ class Questions extends React.Component {
 		if (response.ok) {
 			const qs = await response.json();
 			const questions = qs.questions;
-			while(questions.length > 20) {
+			while (questions.length > 20) {
 				questions.splice(Math.floor(Math.random() * questions.length), 1);
 			}
-			console.log(questions);
 			this.setState({ questions: questions, loading: false });
 		} else alert("No questions found");
 	};
@@ -52,8 +50,10 @@ class Questions extends React.Component {
 			return (
 				<div>
 					<Header />
-					<h1>Loading questions..</h1>.
-					<Preloader size='big'/>
+					<div className="loader">
+						<div className="preloader" />
+						<h1>Loading questions..</h1>
+					</div>
 				</div>
 			);
 		else if (this.state.index < this.state.questions.length)

@@ -1,0 +1,539 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "topic": "html",
+      "question": "Choose the correct HTML tag for the largest heading.",
+      "options": ["<heading>", "<h6>", "<head>", "<h1>"],
+      "ans": "100"
+    },
+    {
+      "id": 2,
+      "topic": "html",
+      "question": "Choose the correct HTML tag for the smallest heading.",
+      "options": ["<heading>", "<h6>", "<head>", "<h1>"],
+      "ans": "100"
+    },
+    {
+      "id": 3,
+      "topic": "html",
+      "question": "What is the correct HTML tag for inserting a line break?",
+      "options": ["<break>", "<br>", "<tr>", "<dl>"],
+      "ans": "110"
+    },
+    {
+      "id": 4,
+      "topic": "html",
+      "question": "What is the correct HTML tag for making your text bold?",
+      "options": ["<a>", "<b>", "<strong>", "<main>"],
+      "ans": "1000"
+    },
+    {
+      "id": 5,
+      "topic": "html",
+      "question": "What is the correct HTML tag for creating a multiline input control?",
+      "options": ["<textarea>", "<input>", "<text>", "<template>"],
+      "ans": "101"
+    },
+    {
+      "id": 6,
+      "topic": "html",
+      "question": "What is the correct HTML tag for creating a HTML form for user input?",
+      "options": ["<textarea>", "<input>", "<text>", "<form>"],
+      "ans": "11000"
+    },
+    {
+      "id": 7,
+      "topic": "html",
+      "question": "Choose the correct HTML tag to define an option in a drop-down list.",
+      "options": ["<select>", "<option>", "<label>", "<output>"],
+      "ans": "1110"
+    },
+    {
+      "id": 8,
+      "topic": "html",
+      "question": "Choose the correct HTML tag to define a drop-down list.",
+      "options": ["<select>", "<option>", "<label>", "<output>"],
+      "ans": "1000"
+    },
+    {
+      "id": 9,
+      "topic": "html",
+      "question": "Choose the correct HTML tag to define a label for an input element.",
+      "options": ["<select>", "<option>", "<label>", "<output>"],
+      "ans": "11011"
+    },
+    {
+      "id": 10,
+      "topic": "html",
+      "question": "What is the correct HTML tag for creating a hyperlink?",
+      "options": ["<a>", "<link>", "<ul>", "<ol>"],
+      "ans": "1010"
+    },
+    {
+      "id": 11,
+      "topic": "html",
+      "question": "How can you create an email link?",
+      "options": [
+        "a href='mailto:xxx@yyy'",
+        "a href='xxx@yyy'",
+        "mail>xxx@yyy",
+        "mail href='xxx@yyy'"
+      ],
+      "ans": "1011"
+    },
+    {
+      "id": 12,
+      "topic": "html",
+      "question": "What is the correct HTML for inserting an image?",
+      "options": [
+        "img href='image.gif'",
+        "img src='image.gif'",
+        "image src='image.gif'",
+        "img>image.gif"
+      ],
+      "ans": "11000"
+    },
+    {
+      "id": 13,
+      "topic": "html",
+      "question": "What is the correct HTML for creating a hyperlink to https://www.freecodecamp.org?",
+      "options": [
+        "link src='https://www.freecodecamp.org/'",
+        "a src='https://www.freecodecamp.org/'",
+        "a href='https://www.freecodecamp.org/'",
+        "a>https://www.freecodecamp.org/"
+      ],
+      "ans": "100111"
+    },
+    {
+      "id": 14,
+      "topic": "html",
+      "question": "What should values always be enclosed in?",
+      "options": ["commas", "parenthesis", "dashes", "quotation marks"],
+      "ans": "111000"
+    },
+    {
+      "id": 15,
+      "topic": "html",
+      "question": "What does <a href='https://www.google.com' title='Link to Google' target='_blank'> Google </a> do?",
+      "options": [
+        "nothing",
+        "adds a link to google on the page",
+        "creates an error",
+        "adds a search engine to the page"
+      ],
+      "ans": "11110"
+    },
+    {
+      "id": 16,
+      "topic": "html",
+      "question": "Which tag will insert a line across the page?",
+      "options": ["<li>", "<ul>", "<hl>", "<hr>"],
+      "ans": "110000"
+    },
+    {
+      "id": 17,
+      "topic": "html",
+      "question": "Which element contains meta information about the document?",
+      "options": ["<!DOCTYPE html>", "<html>", "<head>", "<title>"],
+      "ans": "110011"
+    },
+    {
+      "id": 18,
+      "topic": "html",
+      "question": "Which element contains the visible page content?",
+      "options": ["<!DOCTYPE html>", "<body>", "<head>", "<title>"],
+      "ans": "100100"
+    },
+    {
+      "id": 19,
+      "topic": "html",
+      "question": "Which element defines a paragraph?",
+      "options": ["<a>", "<b>", "<h1>", "<p>"],
+      "ans": "1001100"
+    },
+    {
+      "id": 20,
+      "topic": "html",
+      "question": "What does  <img src='img_cat.jpg' width='500' height='600'> do?",
+      "options": [
+        "adds an image to the page",
+        "creates an error",
+        "nothing",
+        "adds a link to an image on the page"
+      ],
+      "ans": "10100"
+    },
+    {
+      "id": 21,
+      "topic": "html",
+      "question": "Which attribute specifies an alternative text to be used, when an image cannot be displayed?",
+      "options": ["data", "input", "alt", "output"],
+      "ans": "111111"
+    },
+    {
+      "id": 22,
+      "topic": "html",
+      "question": "How is specified that a link should be opened in a new tab or window?",
+      "options": [
+        "<a href='https://www.google.com/' target='_self'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_top'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_blank'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_parent'>Visit Google!</a>"
+      ],
+      "ans": "1000010"
+    },
+    {
+      "id": 23,
+      "topic": "html",
+      "question": "How is specified that a link should be opened in the same window/tab?",
+      "options": [
+        "<a href='https://www.google.com/' target='_self'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_top'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_blank'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_parent'>Visit Google!</a>"
+      ],
+      "ans": "10111"
+    },
+    {
+      "id": 24,
+      "topic": "html",
+      "question": "How is specified that a link should be opened in the full body of the window?",
+      "options": [
+        "<a href='https://www.google.com/' target='_self'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_top'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_blank'>Visit Google!</a>",
+        "<a href='https://www.google.com/' target='_parent'>Visit Google!</a>"
+      ],
+      "ans": "110000"
+    },
+    {
+      "id": 25,
+      "topic": "html",
+      "question": "Which tag will define a table in the HTML document?",
+      "options": ["<tr>", "<th>", "<td>", "<table>"],
+      "ans": "1100100"
+    },
+    {
+      "id": 26,
+      "topic": "html",
+      "question": "Which tag will define a new table row in the table?",
+      "options": ["<tr>", "<th>", "<td>", "<table>"],
+      "ans": "11010"
+    },
+    {
+      "id": 27,
+      "topic": "html",
+      "question": "Which tag will define a table header in the table?",
+      "options": ["<tr>", "<th>", "<td>", "<table>"],
+      "ans": "110110"
+    },
+    {
+      "id": 28,
+      "topic": "html",
+      "question": "Which tag will define a table cell in the table?",
+      "options": ["<tr>", "<th>", "<td>", "<table>"],
+      "ans": "1010100"
+    },
+    {
+      "id": 29,
+      "topic": "html",
+      "question": "Which tag will add a caption to a table?",
+      "options": ["<head>", "<footer>", "<caption>", "<table>"],
+      "ans": "1010111"
+    },
+    {
+      "id": 30,
+      "topic": "html",
+      "question": "Where has the <caption> tag to be inserted for a table?",
+      "options": [
+        "immediately after the <table> tag",
+        "anywhere inside th <table> tag",
+        "immediately after the </table> tag",
+        "immediately before the </table> tag"
+      ],
+      "ans": "11110"
+    },
+    {
+      "id": 31,
+      "topic": "html",
+      "question": "Which tag will define an ordered list?",
+      "options": ["<ul>", "<ol>", "<list>", "<order>"],
+      "ans": "111110"
+    },
+    {
+      "id": 32,
+      "topic": "html",
+      "question": "Which tag will define an unordered list?",
+      "options": ["<ul>", "<ol>", "<ulist>", "<unorder>"],
+      "ans": "100000"
+    },
+    {
+      "id": 33,
+      "topic": "html",
+      "question": "Which is the correct way to include the javascript file 'app.js' to the HTML document?",
+      "options": [
+        "<script type='app.js'></script>",
+        "<script href='app.js'></script>",
+        "<script>app.js</script>",
+        "<script src='app.js'></script>"
+      ],
+      "ans": "10000100"
+    },
+    {
+      "id": 34,
+      "topic": "html",
+      "question": "Where have the <script> tags to be inserted?",
+      "options": [
+        "within <title>",
+        "within <body>",
+        "within <head>",
+        "within <link>"
+      ],
+      "ans": "1100110"
+    },
+    {
+      "id": 35,
+      "topic": "html",
+      "question": "Which element is used to link to external style sheets?",
+      "options": ["<style>", "<body>", "<head>", "<link>"],
+      "ans": "10001100"
+    },
+    {
+      "id": 36,
+      "topic": "html",
+      "question": "Which element is used to define style information for a single HTML page?",
+      "options": ["<style>", "<body>", "<head>", "<link>"],
+      "ans": "100100"
+    },
+    {
+      "id": 37,
+      "topic": "html",
+      "question": "Which element defines a radio button (for selecting one of many choices)?",
+      "options": [
+        "<input type='text'>",
+        "<input type='submit'>",
+        "<input type='radio'>",
+        "<input type='checkbox'>"
+      ],
+      "ans": "1101111"
+    },
+    {
+      "id": 38,
+      "topic": "html",
+      "question": "Which HTML character entity can be used to display '<'?",
+      "options": ["&gt;", "&lt;", "&amp;", "&quot;"],
+      "ans": "1001100"
+    },
+    {
+      "id": 39,
+      "topic": "html",
+      "question": "Which HTML character entity can be used to display '>'?",
+      "options": ["&gt;", "&lt;", "&amp;", "&quot;"],
+      "ans": "100111"
+    },
+    {
+      "id": 40,
+      "topic": "html",
+      "question": "Which HTML character entity can be used to display '&'?",
+      "options": ["&gt;", "&lt;", "&amp;", "&quot;"],
+      "ans": "1111000"
+    },
+    {
+      "id": 41,
+      "topic": "html",
+      "question": "Which element defines a one-line text input field?",
+      "options": [
+        "<input type='text'>",
+        "<input type='submit'>",
+        "<input type='radio'>",
+        "<input type='checkbox'>"
+      ],
+      "ans": "101001"
+    },
+    {
+      "id": 42,
+      "topic": "html",
+      "question": "Which element defines a submit button (for submitting the form)?",
+      "options": [
+        "<input type='text'>",
+        "<input type='submit'>",
+        "<input type='radio'>",
+        "<input type='checkbox'>"
+      ],
+      "ans": "1010100"
+    },
+    {
+      "id": 43,
+      "topic": "html",
+      "question": "Which element defines a checkbox to let a user select one or more options of a limited number of choices?",
+      "options": [
+        "<input type='text'>",
+        "<input type='submit'>",
+        "<input type='radio'>",
+        "<input type='checkbox'>"
+      ],
+      "ans": "10101100"
+    },
+    {
+      "id": 44,
+      "topic": "html",
+      "question": "Which element defines a password input field?",
+      "options": [
+        "<input type='text'>",
+        "<input type='password'>",
+        "<input type='radio'>",
+        "<input type='reset'>"
+      ],
+      "ans": "1011000"
+    },
+    {
+      "id": 45,
+      "topic": "html",
+      "question": "Which element defines a reset button that will reset all form values to their default values?",
+      "options": [
+        "<input type='text'>",
+        "<input type='password'>",
+        "<input type='radio'>",
+        "<input type='reset'>"
+      ],
+      "ans": "10110100"
+    },
+    {
+      "id": 46,
+      "topic": "html",
+      "question": "Which element defines an input fields that should contain a date?",
+      "options": [
+        "<input type='radio'>",
+        "<input type='date'>",
+        "<input type='checkbox'>",
+        "<input type='reset'>"
+      ],
+      "ans": "1011100"
+    },
+    {
+      "id": 47,
+      "topic": "html",
+      "question": "Which element defines a file-select field and a 'Browse' button for file uploads?",
+      "options": [
+        "<input type='radio'>",
+        "<input type='date'>",
+        "<input type='file'>",
+        "<input type='password'>"
+      ],
+      "ans": "10001101"
+    },
+    {
+      "id": 48,
+      "topic": "html",
+      "question": "Which element defines a numeric input field?",
+      "options": [
+        "<input type='number'>",
+        "<input type='date'>",
+        "<input type='file'>",
+        "<input type='password'>"
+      ],
+      "ans": "110000"
+    },
+    {
+      "id": 49,
+      "topic": "html",
+      "question": "What symbol differentiates most opening tags from closing tags?",
+      "options": ["#", "%", "/", "-"],
+      "ans": "10010011"
+    },
+    {
+      "id": 50,
+      "topic": "html",
+      "question": "All HTML tags are enclosed in what?",
+      "options": ["< and >", "( and )", "' and '", "[ and ]"],
+      "ans": "110010"
+    },
+    {
+      "id": 51,
+      "topic": "html",
+      "question": "The <title> tag belongs where in your HTML?",
+      "options": ["<body>", "<a>", "<meta>", "<head>"],
+      "ans": "11001100"
+    },
+    {
+      "id": 52,
+      "topic": "html",
+      "question": "Which of the following will NOT be found in the <head> section?",
+      "options": ["<link>", "<table>", "<meta>", "<script>"],
+      "ans": "1101000"
+    },
+    {
+      "id": 53,
+      "topic": "html",
+      "question": "Colors in plain HTML can be specified using?",
+      "options": ["hexadecimal colors", "meta tags", "images", "links"],
+      "ans": "110101"
+    },
+    {
+      "id": 54,
+      "topic": "html",
+      "question": "HTML defines colors using hexidecimal values, while graphics programs most often use what?",
+      "options": ["numbers", "color names", "RGB code", "binary code"],
+      "ans": "10100010"
+    },
+    {
+      "id": 55,
+      "topic": "html",
+      "question": "What is used to store information usually relevant to browsers and search engines?",
+      "options": ["tabs", "metatags", "cookies", "tokens"],
+      "ans": "1101110"
+    },
+    {
+      "id": 56,
+      "topic": "html",
+      "question": "Which two meta tags have special relevance for search engines?",
+      "options": [
+        "Cookies and Keywords",
+        "Description and Keywords",
+        "Description and Name",
+        "Name and Cookies"
+      ],
+      "ans": "1110000"
+    },
+    {
+      "id": 57,
+      "topic": "html",
+      "question": "Which is NOT a predefined target for links?",
+      "options": ["_blank", "_parent", "_top", "_son"],
+      "ans": "11100100"
+    },
+    {
+      "id": 58,
+      "topic": "html",
+      "question": "Defining clickable sub-areas on an image is called?",
+      "options": [
+        "imagemapping",
+        "imagelinking",
+        "imagearea",
+        "imagedirecting"
+      ],
+      "ans": "111010"
+    },
+    {
+      "id": 59,
+      "topic": "html",
+      "question": "Is it possible to link within the current page?",
+      "options": [
+        "yes",
+        "no",
+        "only to other frames",
+        "only when a new tab or window is opened"
+      ],
+      "ans": "111011"
+    },
+    {
+      "id": 60,
+      "topic": "html",
+      "question": "Which declaration has to be the very first thing in every HTML document?",
+      "options": ["<!DOCTYPE html>", "<html>", "<head>", "<body>"],
+      "ans": "111100"
+    }
+  ]
+}
