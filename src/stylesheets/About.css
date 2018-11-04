@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+.background {
+	background: url('../images/about.jpg') no-repeat center fixed;
+	text-align: center;
+}
+
+.about-logo {
+	width: 60%;
+	height: 60%;
+}
+
+.about-text {
+	font-family: 'Caveat', cursive;
+	font-size: 2em; 
+	text-align: justify;
+}
+
+footer {
+	padding: 2em;
+}

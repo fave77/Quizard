@@ -1,21 +1,88 @@
-@import url("https://fonts.googleapis.com/css?family=Lobster");
-
 .header {
   margin: 0;
-  color: #555273;
   box-shadow: 0 0.1em 0.5em black;
-  text-align: center;
-	font-family: "Lobster";
 	background-color: white;
 }
 
 .logo {
-	width: 10em;
-	height: 10em;
+	width: 8em;
+	height: 8em;
 }
 
 .content {
   margin: 0;
   padding: 5%;
   text-align: center;
+}
+
+
+/*efef*/
+.nav-bar {
+	margin-top: 3em;
+	float: right;
+}
+
+ul li {
+	display: inline;
+	padding: 1.5em;
+}
+
+.nav-bar a{
+	position: relative;
+	transition: all 2s;
+	font-size: 2em;
+	color: #555273;
+}
+
+.nav-bar a:after{
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 0;
+	height: 1px;
+	content: '.';
+	color: transparent;
+}
+
+.nav-bar a:hover{
+	z-index: 1;
+	color: #a4b0c3;
+}
+
+.nav-bar a:hover:after{
+	z-index: -10;
+	animation: fill .5s forwards;
+	opacity: 1;
+}
+
+.nav-bar a,
+.nav-bar a:after,
+.nav-bar a:before{
+	transition: all .5s;
+}
+
+@keyframes fill{
+	0%{
+			width: 0;
+			height: 1px;
+	}
+	100%{
+			width: 100%;
+			height: 2px;
+			background-color: #a4b0c3;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	.header {
+		text-align: center;
+	}
+
+	.nav-bar {
+		display: none;
+	}
+
 }

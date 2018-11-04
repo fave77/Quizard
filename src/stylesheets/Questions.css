@@ -6,17 +6,29 @@
   width: 250px;
   font-size: 2em;
 }
+
 .summary {
-  display: flex;
+	display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #cfc;
+	margin: auto;
+	margin-top: 2em;
   padding: 20px;
-  margin: 20px;
-  border-radius: 20px;
-  text-align: center;
+	width: 60%;
+	font-size: 1em;
+  background-color: black; 
+  color: white;
+  align-items: center;
+  opacity: 0.9;
+  border-radius: 0.5em;
+  transition-property: box-shadow;
+  transition-duration: 1s;
 }
+
+.summary:hover,
+.summary:focus {
+  box-shadow: 0 0 1em black;
+}
+
 .loader {
   display: flex;
   flex-direction: column;
@@ -92,11 +104,15 @@
 .countdown .timer {
   font-family: "Audiowide";
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .questions {
     flex-direction: column;
   }
   .countdown {
     flex-direction: row;
+	}
+	
+	.summary {
+    width: 90%;
   }
 }

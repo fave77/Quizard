@@ -10,13 +10,13 @@
 	height: 10em;
 	margin: 1em 0;
 	padding: 0;
+	border-radius: 2px;
 }
 
 .topics:hover,
 .topics:focus {
 	cursor: pointer;
-	box-shadow: 0 0.05em 0.5em black;
-	filter: blur(1px);
+	box-shadow: 0 0.05em 1em black;
 }
 
 .html {

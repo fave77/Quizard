@@ -18,19 +18,19 @@ class Summary extends React.Component {
 		if (this.state.redirect) return <Redirect to={"/"} />;
 		return (
 			<form className="summary" onSubmit={this.navigateTo}>
-				<h3>
+				<h6>
 					You have given {this.props.correct} correct and&nbsp;
 					{this.props.attempted - this.props.correct} wrong answers out of&nbsp;
 					{this.props.total} questions.
-				</h3>
-				<h4>
+				</h6>
+				<h5>
 					Your Score is: &nbsp;
 					{(
 						this.props.correct -
 						(this.props.attempted - this.props.correct) * 0.33
 					).toFixed(2)}
 					/{this.props.total}
-				</h4>
+				</h5>
 				<button className="btn btn-big-green btn-giant">Submit</button>
 			</form>
 		);

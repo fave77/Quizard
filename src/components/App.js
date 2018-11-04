@@ -2,9 +2,10 @@ import React from "react";
 import { Route } from "react-router-dom";
 import Home from "./Home";
 import Quiz from "./Quiz";
+import Questions from "./Questions";
+import About from './About';
 import "../stylesheets/App.css";
 import "../stylesheets/animate.css";
-import Questions from "./Questions";
 
 class App extends React.Component {
 	state = {
@@ -55,6 +56,7 @@ class App extends React.Component {
 					path={"/questions/:topic/" + this.state.token}
 					component={Questions}
 				/>
+				<Route exact path={"/about"} component={About} />
 			</div>
 		);
 	}

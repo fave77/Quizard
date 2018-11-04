@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #a4b0c3;
+	background-color: #a4b0c3;
+	font-family: sans-serif;
 }
 .btn {
   padding: 0 30px;

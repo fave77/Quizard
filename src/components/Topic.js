@@ -9,6 +9,7 @@ class Topic extends React.Component {
 				className="topics animated fadeInUp tooltipped"
 				data-position="bottom"
 				data-tooltip={this.props.name}
+				title={this.props.name}
 				onClick={() => this.props.toQuestion(this.props.name)}
 			>
 				<section className={`${this.props.name.toLowerCase()}`} />
