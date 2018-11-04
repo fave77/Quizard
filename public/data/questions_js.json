@@ -1,0 +1,331 @@
+{
+  "questions": [
+    {
+      "id": 61,
+      "topic": "js",
+      "question": "a++; is the same as which of the following?",
+      "options": ["a = a + 1;", "a = a + 2;", "a == 2;", "no valid code"],
+      "ans": "111101"
+    },
+    {
+      "id": 62,
+      "topic": "js",
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "options": ["<js>", "<javascript>", "<script>", "<scripting>"],
+      "ans": "10111010"
+    },
+    {
+      "id": 63,
+      "topic": "js",
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element <p id='demo'>This is a demonstration.</p>?",
+      "options": [
+        "document.getElement('p').innerHTML = 'Hello World!';",
+        "#demo.innerHTML = 'Hello World!';",
+        "document.getElementByName('p').innerHTML = 'Hello World!';",
+        "document.getElementById('demo').innerHTML = 'Hello World!';"
+      ],
+      "ans": "11111100"
+    },
+    {
+      "id": 64,
+      "topic": "js",
+      "question": "Where is the correct place to insert a JavaScript?",
+      "options": [
+        "Both the <head> section and the <body> section are correct",
+        "The <head> section",
+        "The <body> section",
+        "Between the <head> and the <body> section"
+      ],
+      "ans": "1000000"
+    },
+    {
+      "id": 65,
+      "topic": "js",
+      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+      "options": [
+        "<script src='xxx.js'>",
+        "<script>xxx.js</script>",
+        "<script href='xxx.js'>",
+        "<script name='xxx.js'>"
+      ],
+      "ans": "1000001"
+    },
+    {
+      "id": 66,
+      "topic": "js",
+      "question": "How do you write 'Hello World' in an alert box?",
+      "options": [
+        "msg('Hello World');",
+        "msgBox('Hello World');",
+        "alert('Hello World');",
+        "alertBox('Hello World');"
+      ],
+      "ans": "11000110"
+    },
+    {
+      "id": 67,
+      "topic": "js",
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function:myFunction()",
+        "function myFunction()",
+        "myFunction() = function",
+        "function = myFunction()"
+      ],
+      "ans": "10000110"
+    },
+    {
+      "id": 68,
+      "topic": "js",
+      "question": "How do you call a function named 'myFunction'?",
+      "options": [
+        "call function myFunction()",
+        "call myFunction()",
+        "myFunction()",
+        "function myFunction()"
+      ],
+      "ans": "11001100"
+    },
+    {
+      "id": 69,
+      "topic": "js",
+      "question": "How to write an if-statement in JavaScript?",
+      "options": [
+        "if i = 3 then",
+        "if (i === 3)",
+        "if i = 3",
+        "if i === 3 then"
+      ],
+      "ans": "10001010"
+    },
+    {
+      "id": 70,
+      "topic": "js",
+      "question": "How to write an IF statement for executing some code if i is NOT equal to 5?",
+      "options": ["if (i != 5)", "if i =! 5 then", "if (i <> 5)", "if i <> 5"],
+      "ans": "1000110"
+    },
+    {
+      "id": 71,
+      "topic": "js",
+      "question": "JavaScript lines end with what?",
+      "options": [".", ",", ";", "nothing"],
+      "ans": "11010101"
+    },
+    {
+      "id": 72,
+      "topic": "js",
+      "question": "What is typeof NaN?",
+      "options": ["undefined", "String", "Number", "none of them"],
+      "ans": "11011000"
+    },
+    {
+      "id": 73,
+      "topic": "js",
+      "question": "What is typeof Array?",
+      "options": ["Array", "Object", "function", "none of them"],
+      "ans": "11011011"
+    },
+    {
+      "id": 74,
+      "topic": "js",
+      "question": "What does [1,2,3,4,5,6].splice(2,4) do?",
+      "options": [
+        "returns [2,3,4]",
+        "returns [3,4,5]",
+        "Changes the original array by deleting 4 elements",
+        "Changes the original array by deleting 3 elements"
+      ],
+      "ans": "11011110"
+    },
+    {
+      "id": 75,
+      "topic": "js",
+      "question": "What does arr.sort((a,b)=>a<b) return if arr is an array of 10 integers?",
+      "options": [
+        "Assending order of elements of arr",
+        "Descending order of elements of arr",
+        "Unordered array",
+        "undefined"
+      ],
+      "ans": "10010110"
+    },
+    {
+      "id": 76,
+      "topic": "js",
+      "question": "Which function inserts an element in the begining of an array?",
+      "options": [
+        "Array.prototype.push",
+        "Array.prototype.pop",
+        "Array.prototype.shift",
+        "Array.prototype.unshift"
+      ],
+      "ans": "100110000"
+    },
+    {
+      "id": 77,
+      "topic": "js",
+      "question": "Which function removes & returns an element in the ending of an array?",
+      "options": [
+        "Array.prototype.push",
+        "Array.prototype.pop",
+        "Array.prototype.shift",
+        "Array.prototype.unshift"
+      ],
+      "ans": "10011010"
+    },
+    {
+      "id": 78,
+      "topic": "js",
+      "question": "Which function removes & returns an element in the begining of an array?",
+      "options": [
+        "Array.prototype.push",
+        "Array.prototype.pop",
+        "Array.prototype.shift",
+        "Array.prototype.unshift"
+      ],
+      "ans": "11101010"
+    },
+    {
+      "id": 79,
+      "topic": "js",
+      "question": "What does ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'].slice(2,3) return?",
+      "options": [
+        "['Lemon','Apple']",
+        "['Lemon','Apple','Mango']",
+        "['Orange','Lemon','Apple']",
+        "['Orange','Lemon']"
+      ],
+      "ans": "10011110"
+    },
+    {
+      "id": 80,
+      "topic": "js",
+      "question": "What does Array.prototype.indexOf(element) return if element is not present in the array?",
+      "options": ["undefined", "null", "false", "-1"],
+      "ans": "101000000"
+    },
+    {
+      "id": 81,
+      "topic": "js",
+      "question": "What does Array.prototype.every(condition) do?",
+      "options": [
+        "Checks whether condition is valid for every element",
+        "Checks whether condition is valid for every element and return true otherwise return false",
+        "Iterates over every element and replaces with true or false depending on condition",
+        "None of these"
+      ],
+      "ans": "10100010"
+    },
+    {
+      "id": 82,
+      "topic": "js",
+      "question": "What does Array.prototype.some(condition) do?",
+      "options": [
+        "Checks whether condition is valid for any element",
+        "Checks whether condition is valid for any element and return true otherwise return false",
+        "Iterates over every element and replaces with true or false depending on condition",
+        "None of these"
+      ],
+      "ans": "10100100"
+    },
+    {
+      "id": 83,
+      "topic": "js",
+      "question": "[4,5]==[4,5] returns?",
+      "options": ["true", "false", "undefined", "error"],
+      "ans": "10100110"
+    },
+    {
+      "id": 84,
+      "topic": "js",
+      "question": "Boolean(\"\") returns?",
+      "options": ["true", "false", "undefined", "error"],
+      "ans": "10101000"
+    },
+    {
+      "id": 85,
+      "topic": "js",
+      "question": "typeof(\"\") === \"boolean\" returns?",
+      "options": ["true", "false", "undefined", "error"],
+      "ans": "10101010"
+    },
+    {
+      "id": 86,
+      "topic": "js",
+      "question": "typeof(null) is?",
+      "options": ["boolean", "null", "undefined", "object"],
+      "ans": "101011000"
+    },
+    {
+      "id": 87,
+      "topic": "js",
+      "question": "typeof(undefined) is?",
+      "options": ["boolean", "null", "undefined", "object"],
+      "ans": "100000101"
+    },
+    {
+      "id": 88,
+      "topic": "js",
+      "question": "typeof({}) is?",
+      "options": ["boolean", "null", "undefined", "object"],
+      "ans": "101100000"
+    },
+    {
+      "id": 89,
+      "topic": "js",
+      "question": "typeof([]) is?",
+      "options": ["Array", "object", "undefined", "function"],
+      "ans": "10110010"
+    },
+    {
+      "id": 90,
+      "topic": "js",
+      "question": "typeof(function(){}) is?",
+      "options": ["Array", "object", "function", "null"],
+      "ans": "100001110"
+    },
+    {
+      "id": 91,
+      "topic": "js",
+      "question": "what does false==0 return?",
+      "options": ["true", "false", "undefined", "null"],
+      "ans": "1011011"
+    },
+    {
+      "id": 92,
+      "topic": "js",
+      "question": "what does false===0 return?",
+      "options": ["true", "false", "undefined", "null"],
+      "ans": "10111000"
+    },
+    {
+      "id": 93,
+      "topic": "js",
+      "question": "what does true===1 return?",
+      "options": ["true", "false", "undefined", "null"],
+      "ans": "1011101"
+    },
+    {
+      "id": 94,
+      "topic": "js",
+      "question": "what does true==1 return?",
+      "options": ["true", "false", "undefined", "null"],
+      "ans": "10111100"
+    },
+    {
+      "id": 95,
+      "topic": "js",
+      "question": "What scope does var have?",
+      "options": ["block", "function", "global", "file"],
+      "ans": "10111110"
+    },
+    {
+      "id": 96,
+      "topic": "js",
+      "question": "What scope does let have?",
+      "options": ["block", "function", "global", "file"],
+      "ans": "1100000"
+    }
+  ]
+}
