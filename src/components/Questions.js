@@ -3,6 +3,7 @@ import Question from "./Question";
 import "../stylesheets/Questions.css";
 import Summary from "./Summary";
 import Header from "./Header";
+import Timer from "./Timer";
 class Questions extends React.Component {
 	constructor(props) {
 		super(props);
@@ -19,6 +20,9 @@ class Questions extends React.Component {
 			let index = this.state.index + 1;
 			this.setState({ index: index });
 		}, 500);
+	};
+	timeout = () => {
+		this.setState({ index: this.state.questions.length });
 	};
 	componentDidMount = async () => {
 		const urls = {
@@ -48,20 +52,26 @@ class Questions extends React.Component {
 			return (
 				<div>
 					<Header />
-					<Question
-						id={question.id}
-						key={question.id}
-						question={question.question}
-						options={question.options}
-						toSubmit={this.toSubmit}
-					/>
+					<div className="questions">
+						<Timer timeout={this.timeout} total={this.state.questions.length} />
+						<Question
+							id={question.id}
+							key={question.id}
+							question={question.question}
+							options={question.options}
+							toSubmit={this.toSubmit}
+						/>
+					</div>
 				</div>
 			);
 		else
 			return (
 				<div>
 					<Header />
-					<Summary submitted={this.state.count} />
+					<Summary
+						submitted={this.state.count}
+						total={this.state.questions.length}
+					/>
 				</div>
 			);
 	}

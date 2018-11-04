@@ -4,7 +4,10 @@ class Summary extends React.Component {
 	render() {
 		return (
 			<form action={null} className="summary">
-				<h3>You have answered {this.props.submitted} questions</h3>
+				<h3>
+					You have answered {this.props.submitted} questions out of{" "}
+					{this.props.total}
+				</h3>
 				<button className="btn btn-big-green btn-giant">Submit</button>
 			</form>
 		);
