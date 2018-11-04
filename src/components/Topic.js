@@ -6,7 +6,7 @@ class Topic extends React.Component {
 	render() {
 		return (
 			<CardPanel
-				className="topics tooltipped animated fadeInUp"
+				className="topics animated fadeInUp tooltipped"
 				data-position="bottom"
 				data-tooltip={this.props.name}
 				onClick={() => this.props.toQuestion(this.props.name)}

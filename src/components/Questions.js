@@ -1,9 +1,11 @@
 import React from "react";
+import { Preloader } from 'react-materialize';
 import Question from "./Question";
 import "../stylesheets/Questions.css";
 import Summary from "./Summary";
 import Header from "./Header";
 import Timer from "./Timer";
+
 class Questions extends React.Component {
 	constructor(props) {
 		super(props);
@@ -36,7 +38,12 @@ class Questions extends React.Component {
 		const response = await fetch(urls[this.props.match.params.topic]);
 		if (response.ok) {
 			const qs = await response.json();
-			this.setState({ questions: qs.questions, loading: false });
+			const questions = qs.questions;
+			while(questions.length > 20) {
+				questions.splice(Math.floor(Math.random() * questions.length), 1);
+			}
+			console.log(questions);
+			this.setState({ questions: questions, loading: false });
 		} else alert("No questions found");
 	};
 	render() {
@@ -46,6 +53,7 @@ class Questions extends React.Component {
 				<div>
 					<Header />
 					<h1>Loading questions..</h1>.
+					<Preloader size='big'/>
 				</div>
 			);
 		else if (this.state.index < this.state.questions.length)

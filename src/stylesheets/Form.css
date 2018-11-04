@@ -1,19 +1,26 @@
 input {
   padding: 0px 10px !important;
 }
+
 .form {
   display: flex;
   flex-direction: column;
   margin: auto;
   padding: 20px 0;
   width: 60%;
-  box-shadow: 5px 5px 12px #171;
-  background: black;
+	background: url(../images/quiz.jpg) no-repeat center fixed;
+	background-size: cover;
   color: white;
   align-items: center;
-  margin-bottom: 80px;
   opacity: 0.9;
-  border-radius: 20px;
+	border-radius: 0.5em;
+	transition-property: box-shadow;
+	transition-duration: 1s;
+}
+
+.form:hover,
+.form:focus {
+	box-shadow: 0 0 1em black;
 }
 
 .form h4 {
@@ -33,6 +40,10 @@ input {
 
 input:valid {
   color: #a3e0a3;
+}
+
+.input::-webkit-autofill {
+	background: black;
 }
 
 .btn {
