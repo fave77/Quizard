@@ -8,12 +8,18 @@ import Timer from "./Timer";
 class Questions extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { questions: [], index: 0, loading: true, count: 0 };
+		this.state = {
+			questions: [],
+			index: 0,
+			loading: true,
+			count: 0,
+			attempted: 0
+		};
 	}
 	toSubmit = async (id, value, isCorrect) => {
 		let qs = this.state.questions;
 		qs[this.state.index].selected = value;
-		if(isCorrect) {
+		if (isCorrect) {
 			await this.setState({
 				questions: qs,
 				count: this.state.count + 1
@@ -21,8 +27,12 @@ class Questions extends React.Component {
 		}
 		await setTimeout(() => {
 			let index = this.state.index + 1;
-			this.setState({ index: index });
-		}, 500);
+			this.setState({ index: index, attempted: this.state.attempted + 1 });
+		}, 300);
+	};
+	skip = () => {
+		let index = this.state.index + 1;
+		this.setState({ index: index });
 	};
 	timeout = () => {
 		this.setState({ index: this.state.questions.length });
@@ -69,6 +79,7 @@ class Questions extends React.Component {
 							options={question.options}
 							ans={question.ans}
 							toSubmit={this.toSubmit}
+							skip={this.skip}
 						/>
 					</div>
 				</div>
@@ -78,8 +89,9 @@ class Questions extends React.Component {
 				<div>
 					<Header />
 					<Summary
-						submitted={this.state.count}
+						correct={this.state.count}
 						total={this.state.questions.length}
+						attempted={this.state.attempted}
 					/>
 				</div>
 			);
