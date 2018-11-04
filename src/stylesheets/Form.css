@@ -52,33 +52,6 @@ input:valid {
   background: black;
 }
 
-.btn {
-  padding: 0 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 12px -1px #191;
-  border: none;
-  display: block;
-  margin-top: 10px;
-  border: 1px solid #dfd;
-}
-
-.btn-big-green {
-  color: #dfd;
-  background: linear-gradient(45deg, #171, #5a5);
-  font-size: 1em;
-}
-
-.btn-big-green:hover {
-  animation: fade 0.5s ease forwards;
-}
-
-@keyframes fade {
-  to {
-    background: #fff;
-    color: #191;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .form {
     width: 100%;
