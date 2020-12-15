@@ -99,7 +99,7 @@ The MIT License 2018 - [Priyabrata Biswas][9].
 [3]: https://formspree.io/
 [4]: https://www.netlify.com/
 [5]: https://materializecss.com/
-[6]: https://github.com/pbiswas101/Quizard/blob/master/CONTRIBUTING.md
+[6]: https://github.com/fave77/Quizard/blob/master/CONTRIBUTING.md
 [7]: https://hackathon.freecodecamp.org/
 [8]: https://github.com/freeCodeCamp/2018-online-jamstack-hackathon
-[9]: https://github.com/pbiswas101
+[9]: https://github.com/fave77
